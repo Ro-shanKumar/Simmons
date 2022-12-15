@@ -61,5 +61,5 @@ function animatePress(currentColor){
 
 $(document).keydown(function(){
   startOver();
-  nextsequence();
+  setTimeout(function(){nextsequence();}, 1000);
 });
